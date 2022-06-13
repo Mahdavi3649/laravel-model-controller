@@ -3,5 +3,11 @@
 @use 'bootstrap';
 
 body{
-    background-color: #c7ea46 ;
+    background-color: #89d65e ;
 }
+
+
+.card:hover {
+    transform:scale(1.1);
+    background-color: #e7fb62;
+  }
