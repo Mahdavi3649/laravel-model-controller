@@ -6,6 +6,8 @@
 
         <title>Laravel</title>
 
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
@@ -14,8 +16,8 @@
     </head>
     <body>
        <header>
-           <div class="logo">
-               Movies
+           <div class="logo text-center">
+               <img width="250" src="https://seeklogo.com/images/M/movie-time-cinema-logo-8B5BE91828-seeklogo.com.png" alt="">
            </div>
        </header>
 
@@ -23,6 +25,6 @@
            @yield('content')
        </main>
        
-       <footer> &copy; copyright movies</footer>
+       <footer class="text-center fw-bold mt-2"> &copy; 2022 copyright movies</footer>
     </body>
 </html>
